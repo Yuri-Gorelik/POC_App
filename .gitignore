@@ -3,6 +3,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+!*/bin/Debug/\*.dacpac
+
 # User-specific files
 *.rsuser
 *.suo
@@ -32,7 +34,6 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
-!*/bin/Debug/\*.dacpac
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
