@@ -125,13 +125,12 @@
     <Folder Include="dbo\Views\" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="dbo\Tables\Customers.sql">
-      <AnsiNulls>On</AnsiNulls>
-      <QuotedIdentifier>On</QuotedIdentifier>
-    </Build>
     <Build Include="dbo\Views\CustomersToUsers.sql">
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
+    </Build>
+    <Build Include="..\..\POC_DWH\POC_DWH\dbo\Tables\Customers.sql">
+      <Link>dbo\Tables\Customers.sql</Link>
     </Build>
   </ItemGroup>
   <ItemGroup>
