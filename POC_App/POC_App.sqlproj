@@ -132,6 +132,7 @@
     <Build Include="..\..\POC_DWH\POC_DWH\dbo\Tables\Customers.sql">
       <Link>dbo\Tables\Customers.sql</Link>
     </Build>
+    <Build Include="dbo\Tables\Table1.sql" />
   </ItemGroup>
   <ItemGroup>
     <ArtifactReference Include="..\..\POC_MeitavUsers\POC_MeitavUsers\bin\Debug\POC_MeitavUsers.dacpac">
